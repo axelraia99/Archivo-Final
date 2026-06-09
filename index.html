@@ -556,7 +556,7 @@ footer img{height:36px;width:auto;margin:0 auto 14px;display:block;}
 <body>
 
 <!-- WA FLOAT -->
-<a class="wa" href="https://wa.me/5493513872808?text=Hola%2C+me+interesa+obtener+más+información+sobre+sus+servicios+de+desarrollo+web." target="_blank" aria-label="WhatsApp">
+<a class="wa" href="https://wa.me/+5493512105240" target="_blank" aria-label="WhatsApp">
   <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
@@ -726,6 +726,12 @@ footer img{height:36px;width:auto;margin:0 auto 14px;display:block;}
 </section>
 
 <!-- PRECIOS -->
+<style>
+.precios-cat{text-align:center;margin:72px 0 28px;}
+.precios-cat-title{color:#fff;font-size:22px;font-weight:700;letter-spacing:-0.01em;margin-bottom:8px;}
+.precios-cat-lead{color:rgba(255,255,255,0.55);font-size:16px;max-width:560px;margin:0 auto;}
+.precios-grid+.precios-cat{margin-top:80px;}
+</style>
 <section class="precios" id="precios">
   <div class="wrap">
     <div class="sec-header">
@@ -733,54 +739,90 @@ footer img{height:36px;width:auto;margin:0 auto 14px;display:block;}
       <h2 class="headline sec-title">Planes claros,<br><span class="accent">sin sorpresas</span></h2>
       <p class="sec-lead">Pago en 2 partes: 50% al inicio, 50% al entregar. Precios con descuento por lanzamiento.</p>
     </div>
+
+    <!-- Web -->
+    <div class="precios-cat">
+      <h3 class="precios-cat-title">Web</h3>
+      <p class="precios-cat-lead">Tu sitio web profesional, listo para que te contacten y convierta visitas en consultas.</p>
+    </div>
     <div class="precios-grid">
       <div class="pc">
-        <div class="pc-plan">Landing Page</div>
-        <span class="pc-old">USD 550</span>
-        <div class="pc-price">USD 400</div>
-        <p class="pc-desc">Ideal para negocios que necesitan presencia online profesional y rápida.</p>
-        <div class="pc-feats">
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Diseño moderno y responsive</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Optimización SEO básica</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Formulario de contacto</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Integración WhatsApp</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Entrega en 7 días hábiles</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Dominio y hosting por 1 año</div>
-        </div>
-        <a class="btn-pc" href="https://wa.me/5493513872808?text=Hola%2C+me+interesa+el+plan+Landing+Page.+Quisiera+más+información." target="_blank" style="text-align:center;text-decoration:none;display:block;">Quiero mi Landing</a>
+        <div class="pc-plan">One Page</div>
+        <div class="pc-price">Desde USD 250</div>
+        <p class="pc-desc">Una web de una sola página: presentación simple, clara y efectiva.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
       </div>
       <div class="pc featured">
         <span class="pc-popular">Más elegido</span>
-        <div class="pc-plan">Sitio a Medida</div>
-        <span class="pc-old">USD 800</span>
-        <div class="pc-price">USD 600</div>
-        <p class="pc-desc">Para negocios que quieren destacar con un sitio completo y diferenciador.</p>
-        <div class="pc-feats">
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Todo lo del plan Landing</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Múltiples secciones y páginas</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>SEO avanzado + Google Analytics</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Blog / Novedades del sector</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Diseño 100% personalizado</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Soporte post-lanzamiento</div>
-        </div>
-        <a class="btn-pc" href="https://wa.me/5493513872808?text=Hola%2C+me+interesa+el+plan+Sitio+a+Medida.+Quisiera+más+información." target="_blank" style="text-align:center;text-decoration:none;display:block;">Quiero mi Sitio</a>
+        <div class="pc-plan">Landing Page</div>
+        <div class="pc-price">Desde USD 390</div>
+        <p class="pc-desc">Página enfocada en una acción: leads, consultas o ventas con foco en conversión.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
       </div>
       <div class="pc">
-        <div class="pc-plan">Desarrollo a Medida</div>
-        <div class="pc-price" style="font-size:36px;letter-spacing:-1px;">Consultar</div>
-        <p class="pc-desc">Para empresas y proyectos que requieren soluciones digitales complejas y personalizadas.</p>
-        <div class="pc-feats">
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Aplicaciones web a medida</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Integraciones con sistemas existentes</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Panel de administración personalizado</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Automatizaciones y flujos de trabajo</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Arquitectura escalable y segura</div>
-          <div class="pc-feat"><div class="pc-check"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg></div>Soporte técnico continuo</div>
-        </div>
-        <a class="btn-pc" href="https://wa.me/5493513872808?text=Hola%2C+me+interesa+el+plan+de+Desarrollo+a+Medida.+Quisiera+más+información." target="_blank" style="text-align:center;text-decoration:none;display:block;">Quiero desarrollar a medida</a>
+        <div class="pc-plan">Web Avanzada</div>
+        <div class="pc-price">Desde USD 590</div>
+        <p class="pc-desc">Web institucional con varias secciones. Puede escalar a e-commerce.</p>
+        <p class="pc-desc" style="font-size:13px;color:rgba(255,255,255,0.4);margin-top:8px;">E-commerce (catálogo + carrito + pagos) desde USD 1.290.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
       </div>
     </div>
-    <p class="precios-nota">¿Tenés un proyecto especial? <a href="https://wa.me/5493513872808?text=Hola%2C+quiero+armar+un+presupuesto+personalizado+para+mi+sitio+web." target="_blank">Podemos armar un presupuesto personalizado.</a></p>
+
+    <!-- Identidad de Marca -->
+    <div class="precios-cat">
+      <h3 class="precios-cat-title">Identidad de Marca</h3>
+      <p class="precios-cat-lead">Tu marca consistente: logo, colores y guía para aplicar bien en web y redes.</p>
+    </div>
+    <div class="precios-grid">
+      <div class="pc">
+        <div class="pc-plan">Identidad Esencial</div>
+        <div class="pc-price">Desde USD 220</div>
+        <p class="pc-desc">Logo, paleta de colores y tipografías para empezar con base sólida.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
+      </div>
+      <div class="pc featured">
+        <span class="pc-popular">Más elegido</span>
+        <div class="pc-plan">Identidad Profesional</div>
+        <div class="pc-price">Desde USD 490</div>
+        <p class="pc-desc">Identidad visual completa para verte sólido y consistente en todos los canales.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
+      </div>
+      <div class="pc">
+        <div class="pc-plan">Identidad Avanzada</div>
+        <div class="pc-price">Desde USD 850</div>
+        <p class="pc-desc">Guía de marca + kits visuales + piezas listas para comunicar y vender.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
+      </div>
+    </div>
+
+    <!-- Redes -->
+    <div class="precios-cat">
+      <h3 class="precios-cat-title">Redes</h3>
+      <p class="precios-cat-lead">Orden visual y diseño para que tus redes se vean profesionales y vendan mejor.</p>
+    </div>
+    <div class="precios-grid">
+      <div class="pc">
+        <div class="pc-plan">Básico</div>
+        <div class="pc-price">USD 180 / mes</div>
+        <p class="pc-desc">Optimización de perfil y plantillas base para empezar prolijo.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
+      </div>
+      <div class="pc featured">
+        <span class="pc-popular">Más elegido</span>
+        <div class="pc-plan">Intermedio</div>
+        <div class="pc-price">USD 320 / mes</div>
+        <p class="pc-desc">Calendario de contenido + sistema visual consistente para sostener tu presencia.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
+      </div>
+      <div class="pc">
+        <div class="pc-plan">Premium</div>
+        <div class="pc-price">USD 520 / mes</div>
+        <p class="pc-desc">Sistema visual avanzado y planificación para crecer con intención y estrategia.</p>
+        <a class="btn-pc" href="https://wa.me/+5493512105240" target="_blank" style="text-align:center;text-decoration:none;display:block;">Solicitar ⚡</a>
+      </div>
+    </div>
+
+    <p class="precios-nota">¿Tenés un proyecto especial? <a href="https://wa.me/+5493512105240" target="_blank">Podemos armar un presupuesto personalizado.</a></p>
   </div>
 </section>
 
@@ -853,7 +895,7 @@ footer img{height:36px;width:auto;margin:0 auto 14px;display:block;}
   <div class="cta-badge"><span style="color:#FFD700">⭐</span> Especialistas en desarrollos a medida</div>
   <h2 class="headline cta-title">¿Listos para que<br><span class="accent">trabajemos juntos?</span></h2>
   <p class="cta-desc">Escribinos por WhatsApp y en menos de 24hs coordinamos una primera charla para entender tu proyecto.</p>
-  <div class="cta-btn-wrap"><button class="btn-cta-big" onclick="window.open('https://wa.me/5493516812401','_blank')">¡Empecemos! →</button></div>
+  <div class="cta-btn-wrap"><button class="btn-cta-big" onclick="window.open('https://wa.me/+5493512105240','_blank')">¡Empecemos! →</button></div>
   <div class="cta-note"><span class="cta-note-dot"></span>Asesoramiento personalizado sin cargo</div>
 </section>
 
@@ -866,9 +908,9 @@ footer img{height:36px;width:auto;margin:0 auto 14px;display:block;}
     </div>
     <div class="sobre-mi-content">
       <span class="section-eyebrow" style="color:#9A7B4F">Quién está detrás</span>
-      <h2 class="headline sobre-mi-title">Hola, soy <span class="accent">Lorenzo</span></h2>
-      <p class="sobre-mi-desc">Con más de 7 años en marketing digital y desarrollo de productos, ayudo a negocios a contar con una presencia web profesional y soluciones de software a medida que acompañen su crecimiento.</p>
-      <a class="btn-dark" href="https://wa.me/5493513872808?text=Hola%2C+quiero+empezar+ahora%21" target="_blank" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;background:#fff;color:#000;">¡Hablemos!</a>
+      <h2 class="headline sobre-mi-title">Hola, soy <span class="accent">Axel</span></h2>
+      <p class="sobre-mi-desc">Con más de 7 años en desarrollo de productos digitales, ayudo a negocios a contar con un branding diferencial, una web profesional y presencia en las redes sociales para acompañar su crecimiento.</p>
+      <a class="btn-dark" href="https://wa.me/+5493512105240" target="_blank" style="text-decoration:none;display:inline-flex;align-items:center;gap:10px;background:#fff;color:#000;">¡Hablemos!</a>
     </div>
   </div>
 </section>
